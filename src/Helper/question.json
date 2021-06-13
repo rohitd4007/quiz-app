@@ -1,0 +1,21 @@
+[{
+        "question": "what is name",
+        "options": ["Rohit", "Ak", "Ana", "hanah"],
+        "answer": "Ana"
+    },
+    {
+        "question": "hello",
+        "options": ["hi ", "by", "no", "ps"],
+        "answer": "hi "
+    },
+    {
+        "question": "hello eho",
+        "options": ["shut", "0", "jh", "pq"],
+        "answer": "0"
+    },
+    {
+        "question": "java",
+        "options": ["javscript", "python", "c", "c++"],
+        "answer": "python"
+    }
+]
