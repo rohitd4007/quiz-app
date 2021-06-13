@@ -20,13 +20,7 @@ function App() {
             <div className="menu">
               {windowState === "menu" && <StartQuiz />}
             </div>
-            <div className="quizz">
-              {windowState === "quiz" && <Quiz /> && (
-                <div className="timer">
-                  <Timer initialMinute={0} initialSeconds={20} />
-                </div>
-              )}
-            </div>
+            <div className="quizz">{windowState === "quiz" && <Quiz />}</div>
             <div className="res">{windowState === "result" && <Result />}</div>
           </div>
         </QuizContext.Provider>
