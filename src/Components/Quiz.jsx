@@ -26,6 +26,9 @@ const Quiz = (params) => {
 
   return (
     <div className="container">
+      <div className="timer">
+        <Timer initialMinute={0} initialSeconds={20} />
+      </div>
       <div className="question">{data[queIndex].question}</div>
 
       {data[queIndex].options.map((par, i) => (
