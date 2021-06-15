@@ -1,33 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .App-header {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    margin-top: 20px;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.quiz {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.quiz-container {
-    background-color: rgb(240, 233, 233);
-    width: 400px;
-    height: 500px;
-    display: flex;
     justify-content: center;
-    color: black;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
 }
 
-.quizz {}
+.App-header h2 {
+    position: absolute;
+    top: 0;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    color: antiquewhite;
+}
+
+.start-button-container button {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(82, 187, 152);
+    border: none;
+    box-shadow: 1 #e4e7ee;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    color: white;
+}
+
+.start-button-container button:hover {
+    background-color: rgb(202, 199, 199);
+    color: #282c34;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .App-header h2 {
+        top: 0;
+        word-spacing: 2px;
+        letter-spacing: 3px;
+        color: antiquewhite;
+    }
+    .App-header {
+        background-color: #282c34;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: unset;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding: 0px;
+        margin: 0px;
+    }
+    .start-button-container button {
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+    }
+}

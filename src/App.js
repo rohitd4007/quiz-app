@@ -12,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Quiz App</h1>
+        <h2>QUIZ APP</h2>
+
         <QuizContext.Provider
           value={{ windowState, setWindowState, scores, setScore }}
         >
@@ -20,7 +21,9 @@ function App() {
             <div className="menu">
               {windowState === "menu" && <StartQuiz />}
             </div>
-            <div className="quizz">{windowState === "quiz" && <Quiz />}</div>
+            <div className="quiz-class">
+              {windowState === "quiz" && <Quiz />}
+            </div>
             <div className="res">{windowState === "result" && <Result />}</div>
           </div>
         </QuizContext.Provider>

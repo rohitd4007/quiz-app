@@ -4,7 +4,7 @@ import "../App.css";
 const StartQuiz = (params) => {
   const { windowState, setWindowState } = useContext(QuizContext);
   return (
-    <div className="container">
+    <div className="start-button-container">
       <button
         className="button"
         onClick={() => {

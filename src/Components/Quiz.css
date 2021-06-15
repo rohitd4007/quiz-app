@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    position: absolute;
+    top: 20px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    right: 20px;
+    background-color: rgb(209, 87, 87);
+    padding: 10px 35px 10px 35px;
+}
+
+.timer-1 {
+    width: fit-content;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.question {
+    background-color: aquamarine;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    left: 400px;
+    padding: 15px 25px 15px 25px;
+    letter-spacing: 3px;
+    font-variant-caps: all-petite-caps;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.options-container button {
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+
+.button-container {
+    margin-top: 50px;
+    position: absolute;
+}
+
+.button-container button {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+}
+
+.single {
+    background-color: green;
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+}
+
+.select {
+    background-color: yellow;
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+}
+
+.single:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .timer {
+        position: absolute;
+        top: 40px;
+        height: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        left: 80px;
+        padding: 5px;
+        width: fit-content;
+    }
+    .timer-1 {
+        width: fit-content;
+        max-width: 170px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+    .question {
+        display: flex;
+        min-height: 20px;
+        overflow: hidden;
+        width: 200px;
+        margin: auto;
+        left: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .options-container button {
+        margin-top: 10px;
+        width: 180px;
+        height: 30px;
+        padding: 10px;
+    }
+    .button-container {
+        margin-top: 50px;
+        position: absolute;
+    }
+    .button-container button {
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+    }
+}
