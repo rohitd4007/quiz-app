@@ -1,21 +1,22 @@
 [{
-        "question": "what is name",
-        "options": ["Rohit", "Ak", "Ana", "hanah"],
-        "answer": "Ana"
+        "question": " \n(function()\n{\nreturn \ntypeof \narguments;\n})();} ",
+
+        "options": ["Object", "Array", "argument", "undefined"],
+        "answer": "Object"
     },
     {
-        "question": "hello",
-        "options": ["hi ", "by", "no", "ps"],
-        "answer": "hi "
+        "question": "Inside which HTML element do we put the JavaScript",
+        "options": ["<javscript>", "<script>", "<sripting>", "<js.script>"],
+        "answer": "<script>"
     },
     {
-        "question": "hello eho",
-        "options": ["shut", "0", "jh", "pq"],
-        "answer": "0"
+        "question": "Javscript is case sensitive Language",
+        "options": ["True", "False"],
+        "answer": "True"
     },
     {
-        "question": "java",
-        "options": ["javscript", "python", "c", "c++"],
-        "answer": "python"
+        "question": "Which method combines two strings and returns a new string",
+        "options": ["append()", "concat()", "attach()", "fetch()"],
+        "answer": "concat()"
     }
 ]

@@ -34,6 +34,7 @@
     font-size: calc(10px + 2vmin);
     font-weight: bold;
     color: white;
+    border-radius: 20px;
 }
 
 .start-button-container button:hover {
@@ -71,4 +72,27 @@
         margin: auto;
         text-align: center;
     }
+}
+
+.btn-container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.reset-btn {
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(10, 117, 117);
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
 }

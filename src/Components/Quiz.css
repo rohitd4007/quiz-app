@@ -22,7 +22,7 @@
 }
 
 .question {
-    background-color: aquamarine;
+    background-color: rgb(230, 230, 230);
     width: 500px;
     position: absolute;
     top: 100px;
@@ -31,6 +31,7 @@
     padding: 15px 25px 15px 25px;
     letter-spacing: 3px;
     font-variant-caps: all-petite-caps;
+    color: black;
 }
 
 .options-container {
@@ -54,24 +55,38 @@
     width: 100px;
     height: 40px;
     padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 117, 117);
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+}
+
+.button-container button:hover {
+    cursor: pointer;
 }
 
 .single {
-    background-color: green;
+    background-color: rgb(155, 202, 155);
     margin-top: 10px;
     width: 400px;
     height: 40px;
     padding: 10px;
     border: none;
+    border-radius: 10px;
 }
 
 .select {
-    background-color: yellow;
+    background-color: rgb(54, 133, 109);
     margin-top: 10px;
     width: 400px;
     height: 40px;
     padding: 10px;
     border: none;
+    border-radius: 10px;
 }
 
 .single:hover {

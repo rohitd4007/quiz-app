@@ -20,7 +20,7 @@ const Timer = (params) => {
         if (minutes === 0) {
           clearInterval(myInterval);
           setWindowState("result");
-          setScore(scores + 1);
+          // setScore(scores + 1);
         } else {
           setMinutes(minutes - 1);
           setSeconds(59);

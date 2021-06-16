@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import { QuizContext } from "../Helper/Context";
-import data from "../Helper/question.json";
+import data from "../Helper/question";
 import Timer from "./Timer";
 import "./Quiz.css";
 
@@ -56,7 +56,6 @@ const Quiz = (optams) => {
             onClick={(e) => handleOptionClick(e, i)}
             className={`single ${handleselect(i)}`}
           >
-            {console.log(selected && handleselect(i))}
             {opt}
           </button>
         ))}
