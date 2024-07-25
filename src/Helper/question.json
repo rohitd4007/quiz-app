@@ -1,22 +1,102 @@
-[{
-        "question": " \n(function()\n{\nreturn \ntypeof \narguments;\n})();} ",
-
-        "options": ["Object", "Array", "argument", "undefined"],
-        "answer": "Object"
+[
+    {
+        "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+        "options": [
+            "<script src='app.js'>",
+            "<script href='app.js'>",
+            "<script ref='app.js'>",
+            "<script name='app.js'>"
+        ],
+        "correct_option": "<script src='app.js'>"
     },
     {
-        "question": "Inside which HTML element do we put the JavaScript",
-        "options": ["<javscript>", "<script>", "<sripting>", "<js.script>"],
-        "answer": "<script>"
+        "question": "Which company developed JavaScript?",
+        "options": [
+            "Netscape",
+            "Microsoft",
+            "Sun Microsystems",
+            "Oracle"
+        ],
+        "correct_option": "Netscape"
     },
     {
-        "question": "Javscript is case sensitive Language",
-        "options": ["True", "False"],
-        "answer": "True"
+        "question": "How do you write 'Hello World' in an alert box?",
+        "options": [
+            "msgBox('Hello World');",
+            "alertBox('Hello World');",
+            "msg('Hello World');",
+            "alert('Hello World');"
+        ],
+        "correct_option": "alert('Hello World');"
     },
     {
-        "question": "Which method combines two strings and returns a new string",
-        "options": ["append()", "concat()", "attach()", "fetch()"],
-        "answer": "concat()"
+        "question": "How do you create a function in JavaScript?",
+        "options": [
+            "function:myFunction()",
+            "function myFunction()",
+            "create function myFunction()",
+            "define myFunction()"
+        ],
+        "correct_option": "function myFunction()"
+    },
+    {
+        "question": "How do you call a function named 'myFunction'?",
+        "options": [
+            "call function myFunction()",
+            "call myFunction()",
+            "myFunction()",
+            "execute myFunction()"
+        ],
+        "correct_option": "myFunction()"
+    },
+    {
+        "question": "What is the output of the following code?\n\n```\nconsole.log(typeof []);\n```",
+        "options": [
+            "object",
+            "array",
+            "list",
+            "undefined"
+        ],
+        "correct_option": "object"
+    },
+    {
+        "question": "What is the correct way to write a JavaScript array?",
+        "options": [
+            "var colors = 'red', 'green', 'blue'",
+            "var colors = (1:'red', 2:'green', 3:'blue')",
+            "var colors = ['red', 'green', 'blue']",
+            "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+        ],
+        "correct_option": "var colors = ['red', 'green', 'blue']"
+    },
+    {
+        "question": "What will be the output of the following code?\n\n```\nlet a = 5;\nlet b = '5';\nconsole.log(a == b);\n```",
+        "options": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+        ],
+        "correct_option": "true"
+    },
+    {
+        "question": "What will be the result of the following code?\n\n```\nlet obj = {a: 1, b: 2};\nlet newObj = {...obj};\nnewObj.c = 3;\nconsole.log(obj.c);\n```",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "undefined"
+        ],
+        "correct_option": "undefined"
+    },
+    {
+        "question": "What is the output of the following code?\n\n```\nfunction test() {\n  var a = 1;\n  if (true) {\n    var a = 2;\n    console.log(a);\n  }\n  console.log(a);\n}\ntest();\n```",
+        "options": [
+            "1 1",
+            "2 1",
+            "2 2",
+            "1 2"
+        ],
+        "correct_option": "2 2"
     }
 ]

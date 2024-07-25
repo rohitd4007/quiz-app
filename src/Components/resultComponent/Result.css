@@ -1,0 +1,20 @@
+.result {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.score {
+    color: #2ed573;
+}
+
+.reset-btn {
+    background-color: #ea8685;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

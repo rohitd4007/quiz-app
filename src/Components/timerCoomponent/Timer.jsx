@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
-import { QuizContext } from "../Helper/Context";
-import Result from "./Result";
-import "./Quiz.css";
+import { QuizContext } from "../../Helper/Context";
+import "./Timer.css";
+
 
 const Timer = (params) => {
   const { initialMinute = 0, initialSeconds = 0 } = params;
@@ -34,13 +34,7 @@ const Timer = (params) => {
 
   return (
     <div className="timer-1">
-      {/* {minutes === 0 && seconds === 0 ? (
-        <Result />
-      ) : ( */}
-      <h3>
-        Time Left : {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
-      </h3>
-      {/* // )} */}
+      Time Left : {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
     </div>
   );
 
