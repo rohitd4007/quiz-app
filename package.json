@@ -1,6 +1,6 @@
 {
     "name": "quiz-app",
-    "homepage": "https://rohitd4007.github.io/quiz-app",
+    "homepage": "quiz-app",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
