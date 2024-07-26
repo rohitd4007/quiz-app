@@ -1,9 +1,9 @@
 .quiz-body {
     display: flex;
     flex-direction: column;
-    flex: 1 1;
-    align-self: flex-start;
-    padding: 4rem;
+    /* flex: 1 1; */
+    /* align-self: flex-start; */
+    /* padding: 4rem; */
 }
 
 .question {
@@ -14,13 +14,14 @@
 }
 
 .options-container {
-    margin: 2rem;
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     height: 16rem;
     overflow: auto;
     align-items: baseline;
+    /* border: 1px solid #9bca9b; */
 }
 
 .options-container button {
@@ -30,8 +31,8 @@
 }
 
 .button-container {
-    margin-top: 1rem;
-    align-self: center;
+    /* margin-top: 1rem; */
+    align-self: flex-end;
 }
 
 .button-container button {
@@ -49,11 +50,12 @@
 }
 
 .single {
-    background-color: rgb(155, 202, 155);
+    border: 0.1rem solid #9bca9b;
     margin-top: 10px;
     padding: 10px;
-    border: none;
     border-radius: 10px;
+    color: #dff9fb;
+    outline: none;
 }
 
 .select {
@@ -62,7 +64,6 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
-    font-size: 1.2rem !important;
     color: #ffffff;
 }
 
@@ -86,5 +87,10 @@
         justify-content: center;
         flex-direction: column;
         height: 20rem;
+    }
+
+    .button-container {
+        margin-top: 1rem;
+        align-self: center;
     }
 }
