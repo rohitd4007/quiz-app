@@ -1,11 +1,12 @@
+/* eslint-disable no-unused-vars */
+
 import { useState, useContext } from "react";
-import { QuizContext } from "../Helper/Context";
-import data from "../Helper/question";
-import Timer from "./Timer";
+import { QuizContext } from "../../Helper/Context";
+import data from "../../Helper/question.json";
 import "./Quiz.css";
 
 const Quiz = (optams) => {
-  const { windowState, setWindowState } = useContext(QuizContext);
+  const { windowState, setWindowState } = useContext(QuizContext);  // eslint-disable-line no-unused-vars
   const { scores, setScore } = useContext(QuizContext);
 
   const [queIndex, setQueIndex] = useState(0);
@@ -13,14 +14,14 @@ const Quiz = (optams) => {
   const [selected, setSelected] = useState();
 
   const NextQuestion = () => {
-    if (data[queIndex].answer === option) {
+    if (data[queIndex].correct_option === option) {
       setScore(scores + 1);
     }
     setQueIndex(queIndex + 1);
     setSelected(undefined);
   };
   const checkScore = () => {
-    if (data[queIndex].answer === option) {
+    if (data[queIndex].correct_option === option) {
       setScore(scores + 1);
     }
     setWindowState("result");
@@ -40,13 +41,10 @@ const Quiz = (optams) => {
   };
 
   return (
-    <div className="container">
-      <div className="timer">
-        <Timer initialMinute={0} initialSeconds={60} />
-      </div>
-
-      <div className="que-container">
-        <div className="question">{data[queIndex].question}</div>
+    <div className="quiz-body">
+      <div className="question">
+        <span>{queIndex + 1}. </span>
+        {data[queIndex].question}
       </div>
       <div className="options-container">
         {data[queIndex].options.map((opt, i) => (
@@ -60,7 +58,6 @@ const Quiz = (optams) => {
           </button>
         ))}
       </div>
-
       <div className="button-container">
         {queIndex === data.length - 1 ? (
           <div className="submit-btn">
