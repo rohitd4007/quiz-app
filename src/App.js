@@ -7,6 +7,7 @@ import Result from "./Components/resultComponent/Result";
 import { QuizContext } from "./Helper/Context";
 import StartQuiz from "./Components/StartQuiz";
 import Timer from "./Components/timerCoomponent/Timer";
+import SelectSkill from "./Components/selectSkillComponent/SelectSkill";
 
 function App() {
   const [windowState, setWindowState] = useState("menu");
@@ -18,7 +19,9 @@ function App() {
       >
         <>
           {windowState === "menu" &&
-            <StartQuiz />
+            <>
+              <SelectSkill />
+            </>
           }
           {windowState === "quiz" &&
             <>
