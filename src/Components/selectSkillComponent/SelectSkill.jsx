@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import './SelectSkill.css';
 import StartQuiz from "../StartQuiz";
+import Popup from "../popupComponent/Popup";
 
 const skills = [
     'C++', 'Java', 'JavaScript', 'Python', 'Ruby', 'Go', 'Rust', 'TypeScript',
@@ -13,31 +14,46 @@ const skills = [
 const SelectSkill = (params) => {
 
     const [selectedSkill, setSelectedSkill] = useState(null);
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
 
     const handleSkillClick = (skill) => {
         setSelectedSkill(skill);
+        setIsModalVisible(true)
+    };
+
+
+    const handleCloseModal = () => {
+        setIsModalVisible(false);
+    };
+
+    const handleStartTest = () => {
+        console.log(`Starting test for ${selectedSkill}`);
+        setIsModalVisible(false);
     };
 
     return (
-        <div>
-            <div className="skills-container">
-                {skills.map((skill, index) => (
-                    <div
-                        key={index}
-                        onClick={() => handleSkillClick(skill)}
-                        className={`skill-card ${selectedSkill === skill ? 'selected' : ''}`}
-                    >
-                        {skill}
-                    </div>
-                ))}
-            </div>
-            {selectedSkill && (
-                <div className="selected-skill">
-                    {/* Selected Skill: {selectedSkill} */}
-                    <StartQuiz />
+        <>
+            <div className="skill-body">
+                <div className="skill-title">Select Skill & Start The Test</div>
+                <div className="skills-container">
+                    {skills.map((skill, index) => (
+                        <div
+                            key={index}
+                            onClick={() => handleSkillClick(skill)}
+                            className={`skill-card ${selectedSkill === skill ? 'selected' : ''}`}
+                        >
+                            {skill}
+                        </div>
+                    ))}
                 </div>
-            )}
-        </div>
+            </div>
+            <Popup
+                isVisible={isModalVisible}
+                onClose={handleCloseModal}
+                onStartTest={handleStartTest}
+            />
+        </>
     );
 };
 

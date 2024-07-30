@@ -1,9 +1,19 @@
+.skill-body {
+    margin: auto;
+}
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 14px;
+}
+
+.skill-title {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.4rem
 }
 
 .skill-card {
