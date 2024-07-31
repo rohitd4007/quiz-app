@@ -1,102 +1,524 @@
-[
-    {
-        "question": "What is the correct syntax for referring to an external script called 'app.js'?",
-        "options": [
-            "<script src='app.js'>",
-            "<script href='app.js'>",
-            "<script ref='app.js'>",
-            "<script name='app.js'>"
+{
+    "skills": {
+        "C++": [
+            {
+                "question": "Which of the following is a correct identifier in C++?",
+                "options": [
+                    "var_1234",
+                    "1234_var",
+                    "var@1234",
+                    "_var1234"
+                ],
+                "correct_option": "var_1234"
+            },
+            {
+                "question": "Which of the following is used to terminate a statement in C++?",
+                "options": [
+                    ".",
+                    ",",
+                    ";",
+                    ":"
+                ],
+                "correct_option": ";"
+            }
         ],
-        "correct_option": "<script src='app.js'>"
-    },
-    {
-        "question": "Which company developed JavaScript?",
-        "options": [
-            "Netscape",
-            "Microsoft",
-            "Sun Microsystems",
-            "Oracle"
+        "Java": [
+            {
+                "question": "Which of these keywords is used to define interfaces in Java?",
+                "options": [
+                    "interface",
+                    "Interface",
+                    "intf",
+                    "Intf"
+                ],
+                "correct_option": "interface"
+            },
+            {
+                "question": "Which of these data types is used to create a variable that should store text in Java?",
+                "options": [
+                    "String",
+                    "string",
+                    "txt",
+                    "TEXT"
+                ],
+                "correct_option": "String"
+            }
         ],
-        "correct_option": "Netscape"
-    },
-    {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "options": [
-            "msgBox('Hello World');",
-            "alertBox('Hello World');",
-            "msg('Hello World');",
-            "alert('Hello World');"
+        "JavaScript": [
+            {
+                "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+                "options": [
+                    "<script src='app.js'>",
+                    "<script href='app.js'>",
+                    "<script ref='app.js'>",
+                    "<script name='app.js'>"
+                ],
+                "correct_option": "<script src='app.js'>"
+            },
+            {
+                "question": "Which company developed JavaScript?",
+                "options": [
+                    "Netscape",
+                    "Microsoft",
+                    "Sun Microsystems",
+                    "Oracle"
+                ],
+                "correct_option": "Netscape"
+            },
+            {
+                "question": "How do you write 'Hello World' in an alert box?",
+                "options": [
+                    "msgBox('Hello World');",
+                    "alertBox('Hello World');",
+                    "msg('Hello World');",
+                    "alert('Hello World');"
+                ],
+                "correct_option": "alert('Hello World');"
+            },
+            {
+                "question": "How do you create a function in JavaScript?",
+                "options": [
+                    "function:myFunction()",
+                    "function myFunction()",
+                    "create function myFunction()",
+                    "define myFunction()"
+                ],
+                "correct_option": "function myFunction()"
+            },
+            {
+                "question": "How do you call a function named 'myFunction'?",
+                "options": [
+                    "call function myFunction()",
+                    "call myFunction()",
+                    "myFunction()",
+                    "execute myFunction()"
+                ],
+                "correct_option": "myFunction()"
+            },
+            {
+                "question": "What is the output of the following code?\n\n```\nconsole.log(typeof []);\n```",
+                "options": [
+                    "object",
+                    "array",
+                    "list",
+                    "undefined"
+                ],
+                "correct_option": "object"
+            },
+            {
+                "question": "What is the correct way to write a JavaScript array?",
+                "options": [
+                    "var colors = 'red', 'green', 'blue'",
+                    "var colors = (1:'red', 2:'green', 3:'blue')",
+                    "var colors = ['red', 'green', 'blue']",
+                    "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+                ],
+                "correct_option": "var colors = ['red', 'green', 'blue']"
+            },
+            {
+                "question": "What will be the output of the following code?\n\n```\nlet a = 5;\nlet b = '5';\nconsole.log(a == b);\n```",
+                "options": [
+                    "true",
+                    "false",
+                    "undefined",
+                    "Error"
+                ],
+                "correct_option": "true"
+            },
+            {
+                "question": "What will be the result of the following code?\n\n```\nlet obj = {a: 1, b: 2};\nlet newObj = {...obj};\nnewObj.c = 3;\nconsole.log(obj.c);\n```",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "undefined"
+                ],
+                "correct_option": "undefined"
+            },
+            {
+                "question": "What is the output of the following code?\n\n```\nfunction test() {\n  var a = 1;\n  if (true) {\n    var a = 2;\n    console.log(a);\n  }\n  console.log(a);\n}\ntest();\n```",
+                "options": [
+                    "1 1",
+                    "2 1",
+                    "2 2",
+                    "1 2"
+                ],
+                "correct_option": "2 2"
+            }
         ],
-        "correct_option": "alert('Hello World');"
-    },
-    {
-        "question": "How do you create a function in JavaScript?",
-        "options": [
-            "function:myFunction()",
-            "function myFunction()",
-            "create function myFunction()",
-            "define myFunction()"
+        "Python": [
+            {
+                "question": "Which of the following is the correct extension of the Python file?",
+                "options": [
+                    ".py",
+                    ".python",
+                    ".pyt",
+                    ".pt"
+                ],
+                "correct_option": ".py"
+            },
+            {
+                "question": "Which keyword is used for function in Python?",
+                "options": [
+                    "Function",
+                    "fun",
+                    "define",
+                    "def"
+                ],
+                "correct_option": "def"
+            }
         ],
-        "correct_option": "function myFunction()"
-    },
-    {
-        "question": "How do you call a function named 'myFunction'?",
-        "options": [
-            "call function myFunction()",
-            "call myFunction()",
-            "myFunction()",
-            "execute myFunction()"
+        "Ruby": [
+            {
+                "question": "Which method is used to handle exceptions in Ruby?",
+                "options": [
+                    "handle",
+                    "rescue",
+                    "catch",
+                    "try"
+                ],
+                "correct_option": "rescue"
+            },
+            {
+                "question": "Which of the following is a Ruby loop?",
+                "options": [
+                    "foreach",
+                    "for",
+                    "loop",
+                    "repeat"
+                ],
+                "correct_option": "for"
+            }
         ],
-        "correct_option": "myFunction()"
-    },
-    {
-        "question": "What is the output of the following code?\n\n```\nconsole.log(typeof []);\n```",
-        "options": [
-            "object",
-            "array",
-            "list",
-            "undefined"
+        "Go": [
+            {
+                "question": "Which of the following is a correct identifier in Go?",
+                "options": [
+                    "var_1234",
+                    "1234_var",
+                    "var@1234",
+                    "_var1234"
+                ],
+                "correct_option": "var_1234"
+            },
+            {
+                "question": "Which of these keywords is used to create a new variable in Go?",
+                "options": [
+                    "new",
+                    "var",
+                    "let",
+                    "int"
+                ],
+                "correct_option": "var"
+            }
         ],
-        "correct_option": "object"
-    },
-    {
-        "question": "What is the correct way to write a JavaScript array?",
-        "options": [
-            "var colors = 'red', 'green', 'blue'",
-            "var colors = (1:'red', 2:'green', 3:'blue')",
-            "var colors = ['red', 'green', 'blue']",
-            "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+        "Rust": [
+            {
+                "question": "Which keyword is used to define a constant in Rust?",
+                "options": [
+                    "const",
+                    "let",
+                    "constant",
+                    "define"
+                ],
+                "correct_option": "const"
+            },
+            {
+                "question": "How do you create a variable in Rust?",
+                "options": [
+                    "var name;",
+                    "let name;",
+                    "name := value;",
+                    "def name;"
+                ],
+                "correct_option": "let name;"
+            }
         ],
-        "correct_option": "var colors = ['red', 'green', 'blue']"
-    },
-    {
-        "question": "What will be the output of the following code?\n\n```\nlet a = 5;\nlet b = '5';\nconsole.log(a == b);\n```",
-        "options": [
-            "true",
-            "false",
-            "undefined",
-            "Error"
+        "TypeScript": [
+            {
+                "question": "Which of the following is not a valid TypeScript data type?",
+                "options": [
+                    "boolean",
+                    "number",
+                    "string",
+                    "character"
+                ],
+                "correct_option": "character"
+            },
+            {
+                "question": "How do you define an interface in TypeScript?",
+                "options": [
+                    "interface Name {}",
+                    "type Name {}",
+                    "class Name {}",
+                    "struct Name {}"
+                ],
+                "correct_option": "interface Name {}"
+            }
         ],
-        "correct_option": "true"
-    },
-    {
-        "question": "What will be the result of the following code?\n\n```\nlet obj = {a: 1, b: 2};\nlet newObj = {...obj};\nnewObj.c = 3;\nconsole.log(obj.c);\n```",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "undefined"
+        "Kotlin": [
+            {
+                "question": "Which of the following is used to define a function in Kotlin?",
+                "options": [
+                    "def",
+                    "function",
+                    "func",
+                    "fun"
+                ],
+                "correct_option": "fun"
+            },
+            {
+                "question": "Which of these keywords is used to define a constant in Kotlin?",
+                "options": [
+                    "const",
+                    "val",
+                    "let",
+                    "final"
+                ],
+                "correct_option": "const"
+            }
         ],
-        "correct_option": "undefined"
-    },
-    {
-        "question": "What is the output of the following code?\n\n```\nfunction test() {\n  var a = 1;\n  if (true) {\n    var a = 2;\n    console.log(a);\n  }\n  console.log(a);\n}\ntest();\n```",
-        "options": [
-            "1 1",
-            "2 1",
-            "2 2",
-            "1 2"
+        "Swift": [
+            {
+                "question": "Which of the following is the correct syntax for defining a function in Swift?",
+                "options": [
+                    "func myFunction() {}",
+                    "def myFunction() {}",
+                    "function myFunction() {}",
+                    "fun myFunction() {}"
+                ],
+                "correct_option": "func myFunction() {}"
+            },
+            {
+                "question": "Which keyword is used to declare a constant in Swift?",
+                "options": [
+                    "let",
+                    "const",
+                    "val",
+                    "final"
+                ],
+                "correct_option": "let"
+            }
         ],
-        "correct_option": "2 2"
+        "PHP": [
+            {
+                "question": "Which symbol is used to declare a variable in PHP?",
+                "options": [
+                    "#",
+                    "@",
+                    "$",
+                    "%"
+                ],
+                "correct_option": "$"
+            },
+            {
+                "question": "Which function is used to include a file in PHP?",
+                "options": [
+                    "include()",
+                    "require()",
+                    "import()",
+                    "attach()"
+                ],
+                "correct_option": "include()"
+            }
+        ],
+        "C#": [
+            {
+                "question": "Which of these data types is used to create a variable that should store text in C#?",
+                "options": [
+                    "string",
+                    "String",
+                    "txt",
+                    "TEXT"
+                ],
+                "correct_option": "string"
+            },
+            {
+                "question": "Which keyword is used to define a namespace in C#?",
+                "options": [
+                    "namespace",
+                    "package",
+                    "module",
+                    "space"
+                ],
+                "correct_option": "namespace"
+            }
+        ],
+        "R": [
+            {
+                "question": "Which of the following is used to assign a value to a variable in R?",
+                "options": [
+                    "=",
+                    "<-",
+                    "->",
+                    ":="
+                ],
+                "correct_option": "<-"
+            },
+            {
+                "question": "Which function is used to read a CSV file in R?",
+                "options": [
+                    "read.csv()",
+                    "read.csvfile()",
+                    "read.file()",
+                    "csv.read()"
+                ],
+                "correct_option": "read.csv()"
+            }
+        ],
+        "Scala": [
+            {
+                "question": "Which keyword is used to define a variable in Scala?",
+                "options": [
+                    "var",
+                    "val",
+                    "let",
+                    "def"
+                ],
+                "correct_option": "var"
+            },
+            {
+                "question": "Which of the following is a correct way to define a function in Scala?",
+                "options": [
+                    "func myFunction() {}",
+                    "def myFunction() {}",
+                    "fun myFunction() {}",
+                    "function myFunction() {}"
+                ],
+                "correct_option": "def myFunction() {}"
+            }
+        ],
+        "Perl": [
+            {
+                "question": "Which symbol is used to declare a scalar variable in Perl?",
+                "options": [
+                    "@",
+                    "$",
+                    "%",
+                    "&"
+                ],
+                "correct_option": "$"
+            },
+            {
+                "question": "Which function is used to print a message in Perl?",
+                "options": [
+                    "echo",
+                    "print",
+                    "printf",
+                    "puts"
+                ],
+                "correct_option": "print"
+            }
+        ],
+        "Objective-C": [
+            {
+                "question": "Which of the following is a correct way to define a function in Objective-C?",
+                "options": [
+                    "- (void)myFunction {}",
+                    "func myFunction() {}",
+                    "- void myFunction {}",
+                    "function myFunction() {}"
+                ],
+                "correct_option": "- (void)myFunction {}"
+            },
+            {
+                "question": "Which keyword is used to define a class in Objective-C?",
+                "options": [
+                    "class",
+                    "@class",
+                    "def",
+                    "@interface"
+                ],
+                "correct_option": "@interface"
+            }
+        ],
+        "Dart": [
+            {
+                "question": "Which of the following is the correct syntax for defining a function in Dart?",
+                "options": [
+                    "func myFunction() {}",
+                    "def myFunction() {}",
+                    "function myFunction() {}",
+                    "myFunction() {}"
+                ],
+                "correct_option": "myFunction() {}"
+            },
+            {
+                "question": "Which keyword is used to declare a constant in Dart?",
+                "options": [
+                    "const",
+                    "let",
+                    "val",
+                    "final"
+                ],
+                "correct_option": "const"
+            }
+        ],
+        "Elixir": [
+            {
+                "question": "Which of the following is the correct syntax for defining a function in Elixir?",
+                "options": [
+                    "func myFunction() {}",
+                    "def myFunction do end",
+                    "function myFunction() {}",
+                    "myFunction() {}"
+                ],
+                "correct_option": "def myFunction do end"
+            },
+            {
+                "question": "Which keyword is used to define a module in Elixir?",
+                "options": [
+                    "module",
+                    "defmodule",
+                    "mod",
+                    "class"
+                ],
+                "correct_option": "defmodule"
+            }
+        ],
+        "Haskell": [
+            {
+                "question": "Which of the following is the correct syntax for defining a function in Haskell?",
+                "options": [
+                    "func myFunction() {}",
+                    "def myFunction = do",
+                    "myFunction :: Int -> Int",
+                    "myFunction() {}"
+                ],
+                "correct_option": "myFunction :: Int -> Int"
+            },
+            {
+                "question": "Which of these is the correct way to import a module in Haskell?",
+                "options": [
+                    "import moduleName",
+                    "include moduleName",
+                    "using moduleName",
+                    "require moduleName"
+                ],
+                "correct_option": "import moduleName"
+            }
+        ],
+        "MATLAB": [
+            {
+                "question": "Which of the following is used to start a comment in MATLAB?",
+                "options": [
+                    "%",
+                    "//",
+                    "#",
+                    "/*"
+                ],
+                "correct_option": "%"
+            },
+            {
+                "question": "Which function is used to display text in MATLAB?",
+                "options": [
+                    "print()",
+                    "disp()",
+                    "echo()",
+                    "write()"
+                ],
+                "correct_option": "disp()"
+            }
+        ]
     }
-]
+}

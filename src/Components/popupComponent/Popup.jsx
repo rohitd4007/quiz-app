@@ -8,11 +8,9 @@ const Popup = ({ isVisible, onClose, onStartTest }) => {
     return (
         <div className="modal-overlay">
             <div className="modal-content">
-                {/* <h2>Start Test</h2>
-                <button onClick={onStartTest} className="start-test-button">Start Test</button> */}
                 <button onClick={onClose} className="close-button">&times;</button>
                 <StartQuiz />
-
+                <button onClick={onClose} className="close-button-mobile">close</button>
             </div>
         </div>
     );

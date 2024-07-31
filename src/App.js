@@ -12,10 +12,12 @@ import SelectSkill from "./Components/selectSkillComponent/SelectSkill";
 function App() {
   const [windowState, setWindowState] = useState("menu");
   const [scores, setScore] = useState(0);
+  const [selectedSkill, setSelectedSkill] = useState("");
+
   return (
     <div className="App">
       <QuizContext.Provider
-        value={{ windowState, setWindowState, scores, setScore }}
+        value={{ windowState, setWindowState, scores, setScore, selectedSkill, setSelectedSkill }}
       >
         <>
           {windowState === "menu" &&

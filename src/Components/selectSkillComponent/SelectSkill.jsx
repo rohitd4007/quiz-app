@@ -4,6 +4,7 @@ import React, { useState, useEffect, useContext } from "react";
 import './SelectSkill.css';
 import StartQuiz from "../StartQuiz";
 import Popup from "../popupComponent/Popup";
+import { QuizContext } from "../../Helper/Context";
 
 const skills = [
     'C++', 'Java', 'JavaScript', 'Python', 'Ruby', 'Go', 'Rust', 'TypeScript',
@@ -13,7 +14,7 @@ const skills = [
 
 const SelectSkill = (params) => {
 
-    const [selectedSkill, setSelectedSkill] = useState(null);
+    const { selectedSkill, setSelectedSkill } = useContext(QuizContext);
     const [isModalVisible, setIsModalVisible] = useState(false);
 
 

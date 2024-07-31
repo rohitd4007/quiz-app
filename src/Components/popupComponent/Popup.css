@@ -35,3 +35,33 @@
 .close-button:hover {
     opacity: 0.7;
 }
+
+.close-button-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .modal-content {
+        padding: 100% 16rem;
+    }
+
+    .close-button {
+        display: none;
+    }
+
+    .close-button-mobile {
+        display: unset;
+        background: none;
+        border: none;
+        font-size: 0.8rem;
+        cursor: pointer;
+        color: #ffffff;
+        margin-top: 1rem;
+    }
+
+    .close-button-mobile :hover {
+        color: #ffffff7a;
+    }
+
+}
