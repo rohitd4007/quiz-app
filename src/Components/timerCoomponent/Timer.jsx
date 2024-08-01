@@ -9,9 +9,7 @@ const Timer = (params) => {
   const { initialMinute = 0, initialSeconds = 0 } = params;
   const [minutes, setMinutes] = useState(initialMinute);
   const [seconds, setSeconds] = useState(initialSeconds);
-
-  const { windowState, setWindowState } = useContext(QuizContext);  // eslint-disable-line no-unused-vars
-  const { scores, setScore } = useContext(QuizContext);  // eslint-disable-line no-unused-vars
+  const { setWindowState } = useContext(QuizContext);  // eslint-disable-line no-unused-vars
 
   useEffect(() => {
     let myInterval = setInterval(() => {
@@ -35,9 +33,12 @@ const Timer = (params) => {
   });
 
   return (
-    <div className="timer-1">
-      Time Left : {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
-    </div>
+    <>
+      <div className="timer-1">
+        Time Left : {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
+      </div>
+    </>
+
   );
 
   // const [counter, setCounter] = React.useState(60);

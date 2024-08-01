@@ -20,6 +20,86 @@
                     ":"
                 ],
                 "correct_option": ";"
+            },
+            {
+                "question": "Which of the following is a valid C++ keyword?",
+                "options": [
+                    "explicit",
+                    "public",
+                    "virtual",
+                    "private"
+                ],
+                "correct_option": "explicit"
+            },
+            {
+                "question": "Which of the following operators can be overloaded in C++?",
+                "options": [
+                    "::",
+                    ".",
+                    ".*",
+                    "+="
+                ],
+                "correct_option": "+="
+            },
+            {
+                "question": "Which of the following is the correct syntax to declare a pointer?",
+                "options": [
+                    "int ptr;",
+                    "int* ptr;",
+                    "ptr int;",
+                    "int ptr*;"
+                ],
+                "correct_option": "int* ptr;"
+            },
+            {
+                "question": "Which of the following is the correct way to create a constant in C++?",
+                "options": [
+                    "const int x = 5;",
+                    "constant int x = 5;",
+                    "define x 5",
+                    "const x = 5;"
+                ],
+                "correct_option": "const int x = 5;"
+            },
+            {
+                "question": "What does STL stand for in C++?",
+                "options": [
+                    "Standard Type Library",
+                    "Software Testing Library",
+                    "Standard Template Library",
+                    "Simple Template Library"
+                ],
+                "correct_option": "Standard Template Library"
+            },
+            {
+                "question": "Which of the following is the correct syntax to read data from a file in C++?",
+                "options": [
+                    "ifstream infile('data.txt');",
+                    "ifstream infile('data.txt'); infile << data;",
+                    "ifstream infile = new ifstream('data.txt');",
+                    "ifstream infile: infile.open('data.txt');"
+                ],
+                "correct_option": "ifstream infile('data.txt');"
+            },
+            {
+                "question": "Which of the following loops is the best choice for iterating through a collection in C++?",
+                "options": [
+                    "while loop",
+                    "do-while loop",
+                    "for loop",
+                    "for-each loop"
+                ],
+                "correct_option": "for-each loop"
+            },
+            {
+                "question": "Which of the following is the correct way to create an array of integers in C++?",
+                "options": [
+                    "int[] arr = new int[5];",
+                    "int arr[5];",
+                    "array<int> arr;",
+                    "int arr = int[5];"
+                ],
+                "correct_option": "int arr[5];"
             }
         ],
         "Java": [
@@ -42,6 +122,86 @@
                     "TEXT"
                 ],
                 "correct_option": "String"
+            },
+            {
+                "question": "Which of the following is not an access modifier in Java?",
+                "options": [
+                    "protected",
+                    "default",
+                    "private",
+                    "public"
+                ],
+                "correct_option": "default"
+            },
+            {
+                "question": "Which of the following is a valid keyword in Java?",
+                "options": [
+                    "interface",
+                    "inherit",
+                    "unsigned",
+                    "extends"
+                ],
+                "correct_option": "interface"
+            },
+            {
+                "question": "Which method is called when an object is created in Java?",
+                "options": [
+                    "finalize()",
+                    "start()",
+                    "init()",
+                    "constructor()"
+                ],
+                "correct_option": "constructor()"
+            },
+            {
+                "question": "Which of the following is a superclass of all classes in Java?",
+                "options": [
+                    "java.lang.Object",
+                    "java.util.ArrayList",
+                    "java.lang.String",
+                    "java.util.HashMap"
+                ],
+                "correct_option": "java.lang.Object"
+            },
+            {
+                "question": "Which of the following is used to handle exceptions in Java?",
+                "options": [
+                    "try-catch",
+                    "error handling",
+                    "exception handling",
+                    "handle exceptions"
+                ],
+                "correct_option": "try-catch"
+            },
+            {
+                "question": "Which of these is a valid declaration of a string array in Java?",
+                "options": [
+                    "String[] arr;",
+                    "String arr[];",
+                    "String arr[] = new String[10];",
+                    "All of the above"
+                ],
+                "correct_option": "All of the above"
+            },
+            {
+                "question": "Which of the following is a reserved keyword in Java?",
+                "options": [
+                    "goto",
+                    "const",
+                    "sizeof",
+                    "volatile"
+                ],
+                "correct_option": "volatile"
+            },
+            {
+                "question": "Which keyword is used to inherit a class in Java?",
+                "options": [
+                    "extends",
+                    "implements",
+                    "inherits",
+                    "inheritsFrom"
+                ],
+                "correct_option": "extends"
             }
         ],
         "JavaScript": [
@@ -166,50 +326,290 @@
                     "def"
                 ],
                 "correct_option": "def"
+            },
+            {
+                "question": "Which of the following is not a keyword in Python?",
+                "options": [
+                    "False",
+                    "None",
+                    "True",
+                    "void"
+                ],
+                "correct_option": "void"
+            },
+            {
+                "question": "Which function is used to get the length of a list in Python?",
+                "options": [
+                    "length()",
+                    "len()",
+                    "size()",
+                    "listLength()"
+                ],
+                "correct_option": "len()"
+            },
+            {
+                "question": "Which of these is a Python tuple?",
+                "options": [
+                    "[1, 2, 3]",
+                    "(1, 2, 3)",
+                    "{1, 2, 3}",
+                    "{1: 1, 2: 2, 3: 3}"
+                ],
+                "correct_option": "(1, 2, 3)"
+            },
+            {
+                "question": "Which of these is the correct syntax to import a module in Python?",
+                "options": [
+                    "import module_name",
+                    "import module_name as alias",
+                    "from module_name import function_name",
+                    "All of the above"
+                ],
+                "correct_option": "All of the above"
+            },
+            {
+                "question": "Which of the following is the correct syntax for a for loop in Python?",
+                "options": [
+                    "for i in range(10):",
+                    "for i = 1 to 10:",
+                    "for (i = 0; i < 10; i++):",
+                    "for (i in range(10))"
+                ],
+                "correct_option": "for i in range(10):"
+            },
+            {
+                "question": "Which of the following is the correct syntax for a while loop in Python?",
+                "options": [
+                    "while (i < 10):",
+                    "while i < 10:",
+                    "while (i < 10) {",
+                    "while i < 10 {"
+                ],
+                "correct_option": "while i < 10:"
+            },
+            {
+                "question": "Which of the following methods can be used to remove whitespace characters from the beginning or end of a string in Python?",
+                "options": [
+                    "strip()",
+                    "trim()",
+                    "strim()",
+                    "remove()"
+                ],
+                "correct_option": "strip()"
+            },
+            {
+                "question": "Which of these is the correct way to create a dictionary in Python?",
+                "options": [
+                    "dict = {'name': 'John', 'age': 30}",
+                    "dict = {'name' => 'John', 'age' => 30}",
+                    "dict = {'name' : 'John', 'age' : 30}",
+                    "dict = {'name'; 'John', 'age'; 30}"
+                ],
+                "correct_option": "dict = {'name': 'John', 'age': 30}"
             }
         ],
         "Ruby": [
             {
-                "question": "Which method is used to handle exceptions in Ruby?",
+                "question": "Which of the following is the correct way to define a function in Ruby?",
                 "options": [
-                    "handle",
-                    "rescue",
-                    "catch",
-                    "try"
+                    "def myFunction",
+                    "function myFunction",
+                    "myFunction = def",
+                    "def function myFunction"
                 ],
-                "correct_option": "rescue"
+                "correct_option": "def myFunction"
             },
             {
-                "question": "Which of the following is a Ruby loop?",
+                "question": "Which of the following is the correct way to create a hash in Ruby?",
                 "options": [
-                    "foreach",
-                    "for",
-                    "loop",
-                    "repeat"
+                    "hash = { 'name' => 'John', 'age' => 30 }",
+                    "hash = { 'name' : 'John', 'age' : 30 }",
+                    "hash = { 'name' : 'John', 'age' => 30 }",
+                    "hash = { 'name' => 'John', 'age' : 30 }"
                 ],
-                "correct_option": "for"
+                "correct_option": "hash = { 'name' => 'John', 'age' => 30 }"
+            },
+            {
+                "question": "Which of the following is the correct way to create an array in Ruby?",
+                "options": [
+                    "array = [1, 2, 3]",
+                    "array = array(1, 2, 3)",
+                    "array = (1, 2, 3)",
+                    "array = {1, 2, 3}"
+                ],
+                "correct_option": "array = [1, 2, 3]"
+            },
+            {
+                "question": "Which of the following is used to output text to the console in Ruby?",
+                "options": [
+                    "print()",
+                    "echo()",
+                    "console.log()",
+                    "puts"
+                ],
+                "correct_option": "puts"
+            },
+            {
+                "question": "Which of the following is the correct way to create a class in Ruby?",
+                "options": [
+                    "class MyClass",
+                    "class MyClass()",
+                    "class MyClass {}",
+                    "class MyClass() {}"
+                ],
+                "correct_option": "class MyClass"
+            },
+            {
+                "question": "Which of the following is used to inherit a class in Ruby?",
+                "options": [
+                    "extends",
+                    "inherits",
+                    "super",
+                    "<"
+                ],
+                "correct_option": "<"
+            },
+            {
+                "question": "Which of the following is the correct way to create an instance of a class in Ruby?",
+                "options": [
+                    "my_object = MyClass.new",
+                    "my_object = new MyClass()",
+                    "my_object = MyClass()",
+                    "my_object = MyClass.create()"
+                ],
+                "correct_option": "my_object = MyClass.new"
+            },
+            {
+                "question": "Which of the following is used to define a module in Ruby?",
+                "options": [
+                    "module",
+                    "define",
+                    "package",
+                    "library"
+                ],
+                "correct_option": "module"
+            },
+            {
+                "question": "Which of the following is used to define a constant in Ruby?",
+                "options": [
+                    "const",
+                    "constant",
+                    "CONST",
+                    "CONSTANT"
+                ],
+                "correct_option": "CONST"
+            },
+            {
+                "question": "Which of the following is the correct way to open a file in Ruby?",
+                "options": [
+                    "file = File.open('filename')",
+                    "file = open('filename')",
+                    "file = filename.open()",
+                    "file = File.open(filename)"
+                ],
+                "correct_option": "file = File.open('filename')"
             }
         ],
         "Go": [
             {
-                "question": "Which of the following is a correct identifier in Go?",
+                "question": "Which of the following is the correct way to declare a variable in Go?",
                 "options": [
-                    "var_1234",
-                    "1234_var",
-                    "var@1234",
-                    "_var1234"
+                    "var x int",
+                    "int x",
+                    "x int",
+                    "declare x int"
                 ],
-                "correct_option": "var_1234"
+                "correct_option": "var x int"
             },
             {
-                "question": "Which of these keywords is used to create a new variable in Go?",
+                "question": "Which of the following is the correct way to import a package in Go?",
                 "options": [
-                    "new",
-                    "var",
-                    "let",
-                    "int"
+                    "import 'fmt'",
+                    "import \"fmt\"",
+                    "include \"fmt\"",
+                    "require \"fmt\""
                 ],
-                "correct_option": "var"
+                "correct_option": "import \"fmt\""
+            },
+            {
+                "question": "Which of the following is the correct way to create a function in Go?",
+                "options": [
+                    "func myFunction() {}",
+                    "def myFunction() {}",
+                    "function myFunction() {}",
+                    "myFunction() {}"
+                ],
+                "correct_option": "func myFunction() {}"
+            },
+            {
+                "question": "Which of the following is the correct way to create a struct in Go?",
+                "options": [
+                    "struct MyStruct {}",
+                    "type MyStruct struct {}",
+                    "class MyStruct {}",
+                    "MyStruct {}"
+                ],
+                "correct_option": "type MyStruct struct {}"
+            },
+            {
+                "question": "Which of the following is used to create a new goroutine in Go?",
+                "options": [
+                    "goroutine myFunction()",
+                    "go myFunction()",
+                    "new goroutine myFunction()",
+                    "create goroutine myFunction()"
+                ],
+                "correct_option": "go myFunction()"
+            },
+            {
+                "question": "Which of the following is used to handle errors in Go?",
+                "options": [
+                    "try-catch",
+                    "if err != nil",
+                    "error handling",
+                    "catch err"
+                ],
+                "correct_option": "if err != nil"
+            },
+            {
+                "question": "Which of the following is the correct way to create a slice in Go?",
+                "options": [
+                    "slice := []int{1, 2, 3}",
+                    "slice := [1, 2, 3]",
+                    "slice := array(1, 2, 3)",
+                    "slice := {1, 2, 3}"
+                ],
+                "correct_option": "slice := []int{1, 2, 3}"
+            },
+            {
+                "question": "Which of the following is used to define a map in Go?",
+                "options": [
+                    "map := map[string]int{}",
+                    "map = map[string]int{}",
+                    "map = {}",
+                    "map = map{}"
+                ],
+                "correct_option": "map := map[string]int{}"
+            },
+            {
+                "question": "Which of the following is the correct way to create a channel in Go?",
+                "options": [
+                    "ch := make(chan int)",
+                    "ch = make(chan int)",
+                    "ch := chan int{}",
+                    "ch = chan int{}"
+                ],
+                "correct_option": "ch := make(chan int)"
+            },
+            {
+                "question": "Which of the following is the correct way to define a constant in Go?",
+                "options": [
+                    "const x = 5",
+                    "constant x = 5",
+                    "define x = 5",
+                    "x := 5"
+                ],
+                "correct_option": "const x = 5"
             }
         ],
         "Rust": [

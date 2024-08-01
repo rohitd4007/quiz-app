@@ -49,6 +49,7 @@ const Quiz = (params) => {
     <>
       {data &&
         <div className="quiz-body">
+          <div className="skill-label">{selectedSkill} Test</div>
           <div className="question">
             <span>{queIndex + 1}. </span>
             {data[queIndex].question}

@@ -7,14 +7,18 @@ import "./Result.css"
 const Result = (params) => {
   const { windowState, setWindowState } = useContext(QuizContext);  // eslint-disable-line no-unused-vars
   const { scores, setscore } = useContext(QuizContext);  // eslint-disable-line no-unused-vars
+  const { setSelectedSkill } = useContext(QuizContext);
+
+  const handleReset = () => {
+    setWindowState("menu");
+    setSelectedSkill('')
+  }
 
   return (
     <div className="result">
       <div className="score"> Your Score : {scores} </div>
       <button
-        onClick={() => {
-          setWindowState("menu");
-        }}
+        onClick={() => handleReset()}
         className="reset-btn"
       >
         Start Quiz Again
