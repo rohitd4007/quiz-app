@@ -12,6 +12,7 @@ const Result = (params) => {
   const handleReset = () => {
     setWindowState("menu");
     setSelectedSkill('')
+    setscore(0)
   }
 
   return (
