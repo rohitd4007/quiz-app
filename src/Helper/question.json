@@ -1,923 +1,243 @@
 {
-    "skills": {
-        "C++": [
+    "javascript": {
+        "easy": [
             {
-                "question": "Which of the following is a correct identifier in C++?",
+                "question": "What is JavaScript?",
                 "options": [
-                    "var_1234",
-                    "1234_var",
-                    "var@1234",
-                    "_var1234"
+                    "A programming language",
+                    "A markup language",
+                    "A styling language",
+                    "A database"
                 ],
-                "correct_option": "var_1234"
+                "correctAnswer": "A programming language"
             },
             {
-                "question": "Which of the following is used to terminate a statement in C++?",
+                "question": "What will be the output of: console.log(2 + '2')?",
                 "options": [
-                    ".",
-                    ",",
-                    ";",
-                    ":"
+                    "22",
+                    "4",
+                    "NaN",
+                    "Error"
                 ],
-                "correct_option": ";"
+                "correctAnswer": "22"
             },
             {
-                "question": "Which of the following is a valid C++ keyword?",
+                "question": "Which method is used to add elements at the end of an array?",
                 "options": [
-                    "explicit",
-                    "public",
-                    "virtual",
-                    "private"
+                    "push()",
+                    "pop()",
+                    "unshift()",
+                    "shift()"
                 ],
-                "correct_option": "explicit"
+                "correctAnswer": "push()"
             },
             {
-                "question": "Which of the following operators can be overloaded in C++?",
+                "question": "What is the correct way to check if 'x' is equal to 2?",
                 "options": [
-                    "::",
-                    ".",
-                    ".*",
-                    "+="
+                    "x = 2",
+                    "x == 2",
+                    "x === 2",
+                    "x => 2"
                 ],
-                "correct_option": "+="
+                "correctAnswer": "x === 2"
             },
             {
-                "question": "Which of the following is the correct syntax to declare a pointer?",
+                "question": "What is the typeof operator used for?",
                 "options": [
-                    "int ptr;",
-                    "int* ptr;",
-                    "ptr int;",
-                    "int ptr*;"
+                    "To check the type of a variable",
+                    "To create a new type",
+                    "To convert types",
+                    "To compare types"
                 ],
-                "correct_option": "int* ptr;"
-            },
-            {
-                "question": "Which of the following is the correct way to create a constant in C++?",
-                "options": [
-                    "const int x = 5;",
-                    "constant int x = 5;",
-                    "define x 5",
-                    "const x = 5;"
-                ],
-                "correct_option": "const int x = 5;"
-            },
-            {
-                "question": "What does STL stand for in C++?",
-                "options": [
-                    "Standard Type Library",
-                    "Software Testing Library",
-                    "Standard Template Library",
-                    "Simple Template Library"
-                ],
-                "correct_option": "Standard Template Library"
-            },
-            {
-                "question": "Which of the following is the correct syntax to read data from a file in C++?",
-                "options": [
-                    "ifstream infile('data.txt');",
-                    "ifstream infile('data.txt'); infile << data;",
-                    "ifstream infile = new ifstream('data.txt');",
-                    "ifstream infile: infile.open('data.txt');"
-                ],
-                "correct_option": "ifstream infile('data.txt');"
-            },
-            {
-                "question": "Which of the following loops is the best choice for iterating through a collection in C++?",
-                "options": [
-                    "while loop",
-                    "do-while loop",
-                    "for loop",
-                    "for-each loop"
-                ],
-                "correct_option": "for-each loop"
-            },
-            {
-                "question": "Which of the following is the correct way to create an array of integers in C++?",
-                "options": [
-                    "int[] arr = new int[5];",
-                    "int arr[5];",
-                    "array<int> arr;",
-                    "int arr = int[5];"
-                ],
-                "correct_option": "int arr[5];"
+                "correctAnswer": "To check the type of a variable"
             }
         ],
-        "Java": [
+        "medium": [
             {
-                "question": "Which of these keywords is used to define interfaces in Java?",
+                "question": "What is the output of: [1,2,3].map(num => num * 2)?",
                 "options": [
-                    "interface",
-                    "Interface",
-                    "intf",
-                    "Intf"
-                ],
-                "correct_option": "interface"
-            },
-            {
-                "question": "Which of these data types is used to create a variable that should store text in Java?",
-                "options": [
-                    "String",
-                    "string",
-                    "txt",
-                    "TEXT"
-                ],
-                "correct_option": "String"
-            },
-            {
-                "question": "Which of the following is not an access modifier in Java?",
-                "options": [
-                    "protected",
-                    "default",
-                    "private",
-                    "public"
-                ],
-                "correct_option": "default"
-            },
-            {
-                "question": "Which of the following is a valid keyword in Java?",
-                "options": [
-                    "interface",
-                    "inherit",
-                    "unsigned",
-                    "extends"
-                ],
-                "correct_option": "interface"
-            },
-            {
-                "question": "Which method is called when an object is created in Java?",
-                "options": [
-                    "finalize()",
-                    "start()",
-                    "init()",
-                    "constructor()"
-                ],
-                "correct_option": "constructor()"
-            },
-            {
-                "question": "Which of the following is a superclass of all classes in Java?",
-                "options": [
-                    "java.lang.Object",
-                    "java.util.ArrayList",
-                    "java.lang.String",
-                    "java.util.HashMap"
-                ],
-                "correct_option": "java.lang.Object"
-            },
-            {
-                "question": "Which of the following is used to handle exceptions in Java?",
-                "options": [
-                    "try-catch",
-                    "error handling",
-                    "exception handling",
-                    "handle exceptions"
-                ],
-                "correct_option": "try-catch"
-            },
-            {
-                "question": "Which of these is a valid declaration of a string array in Java?",
-                "options": [
-                    "String[] arr;",
-                    "String arr[];",
-                    "String arr[] = new String[10];",
-                    "All of the above"
-                ],
-                "correct_option": "All of the above"
-            },
-            {
-                "question": "Which of the following is a reserved keyword in Java?",
-                "options": [
-                    "goto",
-                    "const",
-                    "sizeof",
-                    "volatile"
-                ],
-                "correct_option": "volatile"
-            },
-            {
-                "question": "Which keyword is used to inherit a class in Java?",
-                "options": [
-                    "extends",
-                    "implements",
-                    "inherits",
-                    "inheritsFrom"
-                ],
-                "correct_option": "extends"
-            }
-        ],
-        "JavaScript": [
-            {
-                "question": "What is the correct syntax for referring to an external script called 'app.js'?",
-                "options": [
-                    "<script src='app.js'>",
-                    "<script href='app.js'>",
-                    "<script ref='app.js'>",
-                    "<script name='app.js'>"
-                ],
-                "correct_option": "<script src='app.js'>"
-            },
-            {
-                "question": "Which company developed JavaScript?",
-                "options": [
-                    "Netscape",
-                    "Microsoft",
-                    "Sun Microsystems",
-                    "Oracle"
-                ],
-                "correct_option": "Netscape"
-            },
-            {
-                "question": "How do you write 'Hello World' in an alert box?",
-                "options": [
-                    "msgBox('Hello World');",
-                    "alertBox('Hello World');",
-                    "msg('Hello World');",
-                    "alert('Hello World');"
-                ],
-                "correct_option": "alert('Hello World');"
-            },
-            {
-                "question": "How do you create a function in JavaScript?",
-                "options": [
-                    "function:myFunction()",
-                    "function myFunction()",
-                    "create function myFunction()",
-                    "define myFunction()"
-                ],
-                "correct_option": "function myFunction()"
-            },
-            {
-                "question": "How do you call a function named 'myFunction'?",
-                "options": [
-                    "call function myFunction()",
-                    "call myFunction()",
-                    "myFunction()",
-                    "execute myFunction()"
-                ],
-                "correct_option": "myFunction()"
-            },
-            {
-                "question": "What is the output of the following code?\n\n```\nconsole.log(typeof []);\n```",
-                "options": [
-                    "object",
-                    "array",
-                    "list",
-                    "undefined"
-                ],
-                "correct_option": "object"
-            },
-            {
-                "question": "What is the correct way to write a JavaScript array?",
-                "options": [
-                    "var colors = 'red', 'green', 'blue'",
-                    "var colors = (1:'red', 2:'green', 3:'blue')",
-                    "var colors = ['red', 'green', 'blue']",
-                    "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
-                ],
-                "correct_option": "var colors = ['red', 'green', 'blue']"
-            },
-            {
-                "question": "What will be the output of the following code?\n\n```\nlet a = 5;\nlet b = '5';\nconsole.log(a == b);\n```",
-                "options": [
-                    "true",
-                    "false",
+                    "[2,4,6]",
+                    "[1,2,3]",
                     "undefined",
                     "Error"
                 ],
-                "correct_option": "true"
+                "correctAnswer": "[2,4,6]"
             },
             {
-                "question": "What will be the result of the following code?\n\n```\nlet obj = {a: 1, b: 2};\nlet newObj = {...obj};\nnewObj.c = 3;\nconsole.log(obj.c);\n```",
+                "question": "What is a closure in JavaScript?",
                 "options": [
-                    "1",
-                    "2",
-                    "3",
-                    "undefined"
+                    "A function with access to its outer scope",
+                    "A way to close the browser",
+                    "A method to end a loop",
+                    "A type of error"
                 ],
-                "correct_option": "undefined"
+                "correctAnswer": "A function with access to its outer scope"
             },
             {
-                "question": "What is the output of the following code?\n\n```\nfunction test() {\n  var a = 1;\n  if (true) {\n    var a = 2;\n    console.log(a);\n  }\n  console.log(a);\n}\ntest();\n```",
+                "question": "What is the purpose of async/await?",
                 "options": [
-                    "1 1",
-                    "2 1",
-                    "2 2",
-                    "1 2"
+                    "To handle asynchronous operations",
+                    "To create loops",
+                    "To define variables",
+                    "To import modules"
                 ],
-                "correct_option": "2 2"
+                "correctAnswer": "To handle asynchronous operations"
             }
         ],
-        "Python": [
+        "hard": [
             {
-                "question": "Which of the following is the correct extension of the Python file?",
+                "question": "What is event bubbling?",
                 "options": [
-                    ".py",
-                    ".python",
-                    ".pyt",
-                    ".pt"
+                    "Events propagating up through the DOM",
+                    "Creating new events",
+                    "Removing event listeners",
+                    "Stopping event propagation"
                 ],
-                "correct_option": ".py"
+                "correctAnswer": "Events propagating up through the DOM"
             },
             {
-                "question": "Which keyword is used for function in Python?",
+                "question": "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
                 "options": [
-                    "Function",
-                    "fun",
-                    "define",
-                    "def"
+                    "false",
+                    "true",
+                    "undefined",
+                    "Error"
                 ],
-                "correct_option": "def"
-            },
+                "correctAnswer": "false"
+            }
+        ]
+    },
+    "python": {
+        "easy": [
             {
-                "question": "Which of the following is not a keyword in Python?",
+                "question": "What is Python?",
                 "options": [
-                    "False",
-                    "None",
-                    "True",
-                    "void"
+                    "A high-level programming language",
+                    "A snake species",
+                    "A database",
+                    "A web browser"
                 ],
-                "correct_option": "void"
-            },
-            {
-                "question": "Which function is used to get the length of a list in Python?",
-                "options": [
-                    "length()",
-                    "len()",
-                    "size()",
-                    "listLength()"
-                ],
-                "correct_option": "len()"
-            },
-            {
-                "question": "Which of these is a Python tuple?",
-                "options": [
-                    "[1, 2, 3]",
-                    "(1, 2, 3)",
-                    "{1, 2, 3}",
-                    "{1: 1, 2: 2, 3: 3}"
-                ],
-                "correct_option": "(1, 2, 3)"
-            },
-            {
-                "question": "Which of these is the correct syntax to import a module in Python?",
-                "options": [
-                    "import module_name",
-                    "import module_name as alias",
-                    "from module_name import function_name",
-                    "All of the above"
-                ],
-                "correct_option": "All of the above"
-            },
-            {
-                "question": "Which of the following is the correct syntax for a for loop in Python?",
-                "options": [
-                    "for i in range(10):",
-                    "for i = 1 to 10:",
-                    "for (i = 0; i < 10; i++):",
-                    "for (i in range(10))"
-                ],
-                "correct_option": "for i in range(10):"
-            },
-            {
-                "question": "Which of the following is the correct syntax for a while loop in Python?",
-                "options": [
-                    "while (i < 10):",
-                    "while i < 10:",
-                    "while (i < 10) {",
-                    "while i < 10 {"
-                ],
-                "correct_option": "while i < 10:"
-            },
-            {
-                "question": "Which of the following methods can be used to remove whitespace characters from the beginning or end of a string in Python?",
-                "options": [
-                    "strip()",
-                    "trim()",
-                    "strim()",
-                    "remove()"
-                ],
-                "correct_option": "strip()"
-            },
-            {
-                "question": "Which of these is the correct way to create a dictionary in Python?",
-                "options": [
-                    "dict = {'name': 'John', 'age': 30}",
-                    "dict = {'name' => 'John', 'age' => 30}",
-                    "dict = {'name' : 'John', 'age' : 30}",
-                    "dict = {'name'; 'John', 'age'; 30}"
-                ],
-                "correct_option": "dict = {'name': 'John', 'age': 30}"
+                "correctAnswer": "A high-level programming language"
             }
         ],
-        "Ruby": [
+        "medium": [
             {
-                "question": "Which of the following is the correct way to define a function in Ruby?",
+                "question": "What are Python decorators?",
                 "options": [
-                    "def myFunction",
-                    "function myFunction",
-                    "myFunction = def",
-                    "def function myFunction"
+                    "A way to modify function behavior",
+                    "A type of loop",
+                    "A data structure",
+                    "A module"
                 ],
-                "correct_option": "def myFunction"
-            },
-            {
-                "question": "Which of the following is the correct way to create a hash in Ruby?",
-                "options": [
-                    "hash = { 'name' => 'John', 'age' => 30 }",
-                    "hash = { 'name' : 'John', 'age' : 30 }",
-                    "hash = { 'name' : 'John', 'age' => 30 }",
-                    "hash = { 'name' => 'John', 'age' : 30 }"
-                ],
-                "correct_option": "hash = { 'name' => 'John', 'age' => 30 }"
-            },
-            {
-                "question": "Which of the following is the correct way to create an array in Ruby?",
-                "options": [
-                    "array = [1, 2, 3]",
-                    "array = array(1, 2, 3)",
-                    "array = (1, 2, 3)",
-                    "array = {1, 2, 3}"
-                ],
-                "correct_option": "array = [1, 2, 3]"
-            },
-            {
-                "question": "Which of the following is used to output text to the console in Ruby?",
-                "options": [
-                    "print()",
-                    "echo()",
-                    "console.log()",
-                    "puts"
-                ],
-                "correct_option": "puts"
-            },
-            {
-                "question": "Which of the following is the correct way to create a class in Ruby?",
-                "options": [
-                    "class MyClass",
-                    "class MyClass()",
-                    "class MyClass {}",
-                    "class MyClass() {}"
-                ],
-                "correct_option": "class MyClass"
-            },
-            {
-                "question": "Which of the following is used to inherit a class in Ruby?",
-                "options": [
-                    "extends",
-                    "inherits",
-                    "super",
-                    "<"
-                ],
-                "correct_option": "<"
-            },
-            {
-                "question": "Which of the following is the correct way to create an instance of a class in Ruby?",
-                "options": [
-                    "my_object = MyClass.new",
-                    "my_object = new MyClass()",
-                    "my_object = MyClass()",
-                    "my_object = MyClass.create()"
-                ],
-                "correct_option": "my_object = MyClass.new"
-            },
-            {
-                "question": "Which of the following is used to define a module in Ruby?",
-                "options": [
-                    "module",
-                    "define",
-                    "package",
-                    "library"
-                ],
-                "correct_option": "module"
-            },
-            {
-                "question": "Which of the following is used to define a constant in Ruby?",
-                "options": [
-                    "const",
-                    "constant",
-                    "CONST",
-                    "CONSTANT"
-                ],
-                "correct_option": "CONST"
-            },
-            {
-                "question": "Which of the following is the correct way to open a file in Ruby?",
-                "options": [
-                    "file = File.open('filename')",
-                    "file = open('filename')",
-                    "file = filename.open()",
-                    "file = File.open(filename)"
-                ],
-                "correct_option": "file = File.open('filename')"
+                "correctAnswer": "A way to modify function behavior"
             }
         ],
-        "Go": [
+        "hard": [
             {
-                "question": "Which of the following is the correct way to declare a variable in Go?",
+                "question": "What is the GIL in Python?",
                 "options": [
-                    "var x int",
-                    "int x",
-                    "x int",
-                    "declare x int"
+                    "Global Interpreter Lock",
+                    "General Input Loop",
+                    "Global Input Language",
+                    "General Interface Layer"
                 ],
-                "correct_option": "var x int"
+                "correctAnswer": "Global Interpreter Lock"
+            }
+        ]
+    },
+    "react": {
+        "easy": [
+            {
+                "question": "What is JSX?",
+                "options": [
+                    "JavaScript XML",
+                    "Java Syntax Extension",
+                    "JavaScript XHR",
+                    "Java Style XML"
+                ],
+                "correctAnswer": "JavaScript XML"
             },
             {
-                "question": "Which of the following is the correct way to import a package in Go?",
+                "question": "What is the correct way to render a component?",
                 "options": [
-                    "import 'fmt'",
-                    "import \"fmt\"",
-                    "include \"fmt\"",
-                    "require \"fmt\""
+                    "<Component />",
+                    "Component()",
+                    "render(Component)",
+                    "{Component}"
                 ],
-                "correct_option": "import \"fmt\""
-            },
-            {
-                "question": "Which of the following is the correct way to create a function in Go?",
-                "options": [
-                    "func myFunction() {}",
-                    "def myFunction() {}",
-                    "function myFunction() {}",
-                    "myFunction() {}"
-                ],
-                "correct_option": "func myFunction() {}"
-            },
-            {
-                "question": "Which of the following is the correct way to create a struct in Go?",
-                "options": [
-                    "struct MyStruct {}",
-                    "type MyStruct struct {}",
-                    "class MyStruct {}",
-                    "MyStruct {}"
-                ],
-                "correct_option": "type MyStruct struct {}"
-            },
-            {
-                "question": "Which of the following is used to create a new goroutine in Go?",
-                "options": [
-                    "goroutine myFunction()",
-                    "go myFunction()",
-                    "new goroutine myFunction()",
-                    "create goroutine myFunction()"
-                ],
-                "correct_option": "go myFunction()"
-            },
-            {
-                "question": "Which of the following is used to handle errors in Go?",
-                "options": [
-                    "try-catch",
-                    "if err != nil",
-                    "error handling",
-                    "catch err"
-                ],
-                "correct_option": "if err != nil"
-            },
-            {
-                "question": "Which of the following is the correct way to create a slice in Go?",
-                "options": [
-                    "slice := []int{1, 2, 3}",
-                    "slice := [1, 2, 3]",
-                    "slice := array(1, 2, 3)",
-                    "slice := {1, 2, 3}"
-                ],
-                "correct_option": "slice := []int{1, 2, 3}"
-            },
-            {
-                "question": "Which of the following is used to define a map in Go?",
-                "options": [
-                    "map := map[string]int{}",
-                    "map = map[string]int{}",
-                    "map = {}",
-                    "map = map{}"
-                ],
-                "correct_option": "map := map[string]int{}"
-            },
-            {
-                "question": "Which of the following is the correct way to create a channel in Go?",
-                "options": [
-                    "ch := make(chan int)",
-                    "ch = make(chan int)",
-                    "ch := chan int{}",
-                    "ch = chan int{}"
-                ],
-                "correct_option": "ch := make(chan int)"
-            },
-            {
-                "question": "Which of the following is the correct way to define a constant in Go?",
-                "options": [
-                    "const x = 5",
-                    "constant x = 5",
-                    "define x = 5",
-                    "x := 5"
-                ],
-                "correct_option": "const x = 5"
+                "correctAnswer": "<Component />"
             }
         ],
-        "Rust": [
+        "medium": [
             {
-                "question": "Which keyword is used to define a constant in Rust?",
+                "question": "What hook is used for side effects in React?",
                 "options": [
-                    "const",
-                    "let",
-                    "constant",
-                    "define"
+                    "useEffect",
+                    "useState",
+                    "useContext",
+                    "useReducer"
                 ],
-                "correct_option": "const"
+                "correctAnswer": "useEffect"
             },
             {
-                "question": "How do you create a variable in Rust?",
+                "question": "What is the purpose of keys in React lists?",
                 "options": [
-                    "var name;",
-                    "let name;",
-                    "name := value;",
-                    "def name;"
+                    "To uniquely identify elements",
+                    "To style elements",
+                    "To add event listeners",
+                    "To create refs"
                 ],
-                "correct_option": "let name;"
+                "correctAnswer": "To uniquely identify elements"
             }
         ],
-        "TypeScript": [
+        "hard": [
             {
-                "question": "Which of the following is not a valid TypeScript data type?",
+                "question": "What is React Fiber?",
                 "options": [
-                    "boolean",
-                    "number",
-                    "string",
-                    "character"
+                    "A reconciliation algorithm",
+                    "A state management tool",
+                    "A routing solution",
+                    "A testing framework"
                 ],
-                "correct_option": "character"
-            },
+                "correctAnswer": "A reconciliation algorithm"
+            }
+        ]
+    },
+    "java": {
+        "easy": [
             {
-                "question": "How do you define an interface in TypeScript?",
+                "question": "What is Java?",
                 "options": [
-                    "interface Name {}",
-                    "type Name {}",
-                    "class Name {}",
-                    "struct Name {}"
+                    "A high-level programming language",
+                    "A database",
+                    "A web browser",
+                    "An operating system"
                 ],
-                "correct_option": "interface Name {}"
+                "correctAnswer": "A high-level programming language"
             }
         ],
-        "Kotlin": [
+        "medium": [
             {
-                "question": "Which of the following is used to define a function in Kotlin?",
+                "question": "What is inheritance in Java?",
                 "options": [
-                    "def",
-                    "function",
-                    "func",
-                    "fun"
+                    "A mechanism to reuse code",
+                    "A way to create objects",
+                    "A type of variable",
+                    "A loop structure"
                 ],
-                "correct_option": "fun"
-            },
-            {
-                "question": "Which of these keywords is used to define a constant in Kotlin?",
-                "options": [
-                    "const",
-                    "val",
-                    "let",
-                    "final"
-                ],
-                "correct_option": "const"
+                "correctAnswer": "A mechanism to reuse code"
             }
         ],
-        "Swift": [
+        "hard": [
             {
-                "question": "Which of the following is the correct syntax for defining a function in Swift?",
+                "question": "What is multithreading in Java?",
                 "options": [
-                    "func myFunction() {}",
-                    "def myFunction() {}",
-                    "function myFunction() {}",
-                    "fun myFunction() {}"
+                    "A way to execute multiple threads simultaneously",
+                    "A type of loop",
+                    "A data structure",
+                    "A way to create objects"
                 ],
-                "correct_option": "func myFunction() {}"
-            },
-            {
-                "question": "Which keyword is used to declare a constant in Swift?",
-                "options": [
-                    "let",
-                    "const",
-                    "val",
-                    "final"
-                ],
-                "correct_option": "let"
-            }
-        ],
-        "PHP": [
-            {
-                "question": "Which symbol is used to declare a variable in PHP?",
-                "options": [
-                    "#",
-                    "@",
-                    "$",
-                    "%"
-                ],
-                "correct_option": "$"
-            },
-            {
-                "question": "Which function is used to include a file in PHP?",
-                "options": [
-                    "include()",
-                    "require()",
-                    "import()",
-                    "attach()"
-                ],
-                "correct_option": "include()"
-            }
-        ],
-        "C#": [
-            {
-                "question": "Which of these data types is used to create a variable that should store text in C#?",
-                "options": [
-                    "string",
-                    "String",
-                    "txt",
-                    "TEXT"
-                ],
-                "correct_option": "string"
-            },
-            {
-                "question": "Which keyword is used to define a namespace in C#?",
-                "options": [
-                    "namespace",
-                    "package",
-                    "module",
-                    "space"
-                ],
-                "correct_option": "namespace"
-            }
-        ],
-        "R": [
-            {
-                "question": "Which of the following is used to assign a value to a variable in R?",
-                "options": [
-                    "=",
-                    "<-",
-                    "->",
-                    ":="
-                ],
-                "correct_option": "<-"
-            },
-            {
-                "question": "Which function is used to read a CSV file in R?",
-                "options": [
-                    "read.csv()",
-                    "read.csvfile()",
-                    "read.file()",
-                    "csv.read()"
-                ],
-                "correct_option": "read.csv()"
-            }
-        ],
-        "Scala": [
-            {
-                "question": "Which keyword is used to define a variable in Scala?",
-                "options": [
-                    "var",
-                    "val",
-                    "let",
-                    "def"
-                ],
-                "correct_option": "var"
-            },
-            {
-                "question": "Which of the following is a correct way to define a function in Scala?",
-                "options": [
-                    "func myFunction() {}",
-                    "def myFunction() {}",
-                    "fun myFunction() {}",
-                    "function myFunction() {}"
-                ],
-                "correct_option": "def myFunction() {}"
-            }
-        ],
-        "Perl": [
-            {
-                "question": "Which symbol is used to declare a scalar variable in Perl?",
-                "options": [
-                    "@",
-                    "$",
-                    "%",
-                    "&"
-                ],
-                "correct_option": "$"
-            },
-            {
-                "question": "Which function is used to print a message in Perl?",
-                "options": [
-                    "echo",
-                    "print",
-                    "printf",
-                    "puts"
-                ],
-                "correct_option": "print"
-            }
-        ],
-        "Objective-C": [
-            {
-                "question": "Which of the following is a correct way to define a function in Objective-C?",
-                "options": [
-                    "- (void)myFunction {}",
-                    "func myFunction() {}",
-                    "- void myFunction {}",
-                    "function myFunction() {}"
-                ],
-                "correct_option": "- (void)myFunction {}"
-            },
-            {
-                "question": "Which keyword is used to define a class in Objective-C?",
-                "options": [
-                    "class",
-                    "@class",
-                    "def",
-                    "@interface"
-                ],
-                "correct_option": "@interface"
-            }
-        ],
-        "Dart": [
-            {
-                "question": "Which of the following is the correct syntax for defining a function in Dart?",
-                "options": [
-                    "func myFunction() {}",
-                    "def myFunction() {}",
-                    "function myFunction() {}",
-                    "myFunction() {}"
-                ],
-                "correct_option": "myFunction() {}"
-            },
-            {
-                "question": "Which keyword is used to declare a constant in Dart?",
-                "options": [
-                    "const",
-                    "let",
-                    "val",
-                    "final"
-                ],
-                "correct_option": "const"
-            }
-        ],
-        "Elixir": [
-            {
-                "question": "Which of the following is the correct syntax for defining a function in Elixir?",
-                "options": [
-                    "func myFunction() {}",
-                    "def myFunction do end",
-                    "function myFunction() {}",
-                    "myFunction() {}"
-                ],
-                "correct_option": "def myFunction do end"
-            },
-            {
-                "question": "Which keyword is used to define a module in Elixir?",
-                "options": [
-                    "module",
-                    "defmodule",
-                    "mod",
-                    "class"
-                ],
-                "correct_option": "defmodule"
-            }
-        ],
-        "Haskell": [
-            {
-                "question": "Which of the following is the correct syntax for defining a function in Haskell?",
-                "options": [
-                    "func myFunction() {}",
-                    "def myFunction = do",
-                    "myFunction :: Int -> Int",
-                    "myFunction() {}"
-                ],
-                "correct_option": "myFunction :: Int -> Int"
-            },
-            {
-                "question": "Which of these is the correct way to import a module in Haskell?",
-                "options": [
-                    "import moduleName",
-                    "include moduleName",
-                    "using moduleName",
-                    "require moduleName"
-                ],
-                "correct_option": "import moduleName"
-            }
-        ],
-        "MATLAB": [
-            {
-                "question": "Which of the following is used to start a comment in MATLAB?",
-                "options": [
-                    "%",
-                    "//",
-                    "#",
-                    "/*"
-                ],
-                "correct_option": "%"
-            },
-            {
-                "question": "Which function is used to display text in MATLAB?",
-                "options": [
-                    "print()",
-                    "disp()",
-                    "echo()",
-                    "write()"
-                ],
-                "correct_option": "disp()"
+                "correctAnswer": "A way to execute multiple threads simultaneously"
             }
         ]
     }

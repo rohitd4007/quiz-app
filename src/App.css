@@ -1,35 +1,117 @@
+:root {
+    /* Modern color palette */
+    --primary-color: #3f51b5;
+    --primary-hover: #5c6bc0;
+    --secondary-color: #ff4081;
+    --secondary-hover: #ff80ab;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --error-color: #f44336;
+
+    /* Light theme */
+    --primary-bg: #f8f9fa;
+    --secondary-bg: #ffffff;
+    --card-bg: #ffffff;
+    --text-primary: #2c3e50;
+    --text-secondary: #546e7a;
+    --border-color: #e0e0e0;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --hover-bg: rgba(0, 0, 0, 0.05);
+}
+
+.dark-mode {
+    --primary-bg: #1a1a2e;
+    --secondary-bg: #16213e;
+    --card-bg: #1f2937;
+    --text-primary: #ffffff;
+    --text-secondary: #94a3b8;
+    --border-color: #2d3748;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --hover-bg: rgba(255, 255, 255, 0.05);
+}
+
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
-    background-color: #55554c;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
 }
 
 .App {
-    color: white;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+    transition: all 0.3s ease;
 }
 
-.start-button-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.quiz-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-.start-button-container button {
-    background-color: rgb(82, 187, 152);
-    border: none;
-    font-size: 1.6rem;
-    color: white;
+/* Card styles */
+.menu-container,
+.quiz-section,
+.result-container {
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    margin-top: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+/* Button styles */
+.button {
+    padding: 0.8rem 1.5rem;
     border-radius: 8px;
-    padding: 0.5rem;
-    width: max-content;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
-.start-button-container button:hover {
-    background-color: rgb(202, 199, 199);
-    color: #282c34;
-    cursor: pointer;
+.button-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+/* Animation classes */
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
 }
