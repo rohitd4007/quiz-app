@@ -1,7 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { QuizContext } from '../../Helper/Context';
 import questions from '../../Helper/question.json';
-import Timer from '../timerCoomponent/Timer';
 import Loading from '../common/Loading';
 import './Quiz.css';
 
@@ -13,8 +12,7 @@ const Quiz = () => {
         setScore,
         currentQuestionIndex,
         setCurrentQuestionIndex,
-        setTotalQuestions,
-        totalQuestions
+        setTotalQuestions
     } = useContext(QuizContext);
 
     const [currentQuestions, setCurrentQuestions] = useState([]);
