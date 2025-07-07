@@ -1,0 +1,169 @@
+.footer {
+    background: #22130b;
+    color: #bdbdbd;
+    padding: 3.5rem 0 0 0;
+    font-size: 1.08rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4vw;
+    gap: 2.5rem;
+}
+
+.footer-col {
+    flex: 1 1 30%;
+    min-width: 180px;
+    margin-bottom: 2.5rem;
+}
+
+.brand-col {
+    flex: 1 1 40%;
+    min-width: 260px;
+}
+
+.footer-brand {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ececec;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.brand-highlight {
+    color: #a16207;
+}
+
+.footer-contact {
+    margin-bottom: 1.2rem;
+    font-size: 1.08rem;
+}
+
+.contact-label {
+    font-weight: 700;
+    color: #ececec;
+}
+
+.contact-email {
+    color: #bdbdbd;
+    font-size: 1.05rem;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 0.7rem;
+}
+
+.footer-social-icon svg {
+    display: block;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.footer-social-icon:hover svg {
+    transform: scale(1.15);
+    filter: brightness(1.3);
+}
+
+.footer-heading {
+    font-weight: 800;
+    color: #ececec;
+    margin-bottom: 1.1rem;
+    font-size: 1.13rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.7rem;
+}
+
+.footer-links a {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #a16207;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1.5px solid #23232b;
+    margin: 0 auto 1.2rem auto;
+    max-width: 1200px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4vw 1.5rem 4vw;
+    font-size: 1rem;
+    color: #bdbdbd;
+}
+
+.footer-copyright {
+    font-size: 1.05rem;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-legal a {
+    color: #bdbdbd;
+    text-decoration: underline;
+    font-size: 1.01rem;
+    transition: color 0.2s;
+}
+
+.footer-legal a:hover {
+    color: #a16207;
+}
+
+@media (max-width: 900px) {
+    .footer-main {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 0.7rem;
+        padding: 0 1rem 1.2rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 2rem 0 0 0;
+    }
+
+    .footer-main {
+        padding: 0 0.5rem;
+    }
+
+    .footer-bottom {
+        padding: 0 0.5rem 1rem 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    .footer-brand {
+        font-size: 1.2rem;
+    }
+}

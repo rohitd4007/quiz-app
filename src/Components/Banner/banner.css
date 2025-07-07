@@ -1,0 +1,119 @@
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60vh;
+    background: #18171a;
+    padding: 3.5rem 4vw;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.12);
+    gap: 2rem;
+}
+
+.home-left {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 320px;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ececec;
+    margin-bottom: 1.2rem;
+    line-height: 1.1;
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    color: #bdbdbd;
+    margin-bottom: 2.2rem;
+    font-weight: 500;
+}
+
+.home-play-btn {
+    background: #a16207;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 0.9rem 2.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    box-shadow: 0 2px 8px rgba(161, 98, 7, 0.08);
+    transition: background 0.2s, transform 0.2s;
+}
+
+.home-play-btn:hover {
+    background: #d97706;
+    transform: translateY(-2px) scale(1.03);
+}
+
+.btn-icon {
+    font-size: 1.3rem;
+}
+
+.home-right {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+
+.home-illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+}
+
+@media (max-width: 900px) {
+    .home-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem 1rem;
+        min-height: 50vh;
+    }
+
+    .home-right {
+        margin-top: 2rem;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .home-illustration {
+        width: 120px;
+        height: 120px;
+    }
+
+    .home-title {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-container {
+        padding: 1.2rem 0.5rem;
+        min-height: 40vh;
+    }
+
+    .home-title {
+        font-size: 1.3rem;
+    }
+
+    .home-subtitle {
+        font-size: 1rem;
+    }
+
+    .home-illustration {
+        width: 80px;
+        height: 80px;
+    }
+}

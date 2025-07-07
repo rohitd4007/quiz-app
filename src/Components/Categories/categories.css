@@ -1,0 +1,153 @@
+.categories-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #1d1d21;
+    padding: 3.5rem 4vw;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.10);
+    gap: 2.5rem;
+}
+
+.categories-left {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 320px;
+}
+
+.categories-title {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #ececec;
+    margin-bottom: 2.2rem;
+    letter-spacing: 0.5px;
+}
+
+.categories-cards {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.2rem;
+}
+
+.category-card {
+    background: #23232b;
+    border-radius: 14px;
+    padding: 2.2rem 2.5rem 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 160px;
+    min-height: 140px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    background: #2d2d3a;
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 6px 24px rgba(80, 112, 255, 0.10);
+}
+
+.category-icon {
+    margin-bottom: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-name {
+    color: #fff;
+    font-size: 1.18rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.categories-desc {
+    margin-top: 1.5rem;
+    color: #bdbdbd;
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+
+.categories-link {
+    color: #3b82f6;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.categories-link:hover {
+    color: #f43f5e;
+}
+
+.categories-right {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+
+.categories-illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 110px;
+}
+
+@media (max-width: 900px) {
+    .categories-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem 1rem;
+        min-height: 50vh;
+    }
+
+    .categories-right {
+        margin-top: 2rem;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .categories-illustration {
+        width: 100px;
+        height: 80px;
+    }
+
+    .categories-title {
+        font-size: 1.5rem;
+    }
+
+    .categories-cards {
+        gap: 1rem;
+    }
+
+    .category-card {
+        min-width: 120px;
+        min-height: 100px;
+        padding: 1.2rem 1.2rem 1rem 1.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .categories-section {
+        padding: 1.2rem 0.5rem;
+        min-height: 40vh;
+    }
+
+    .categories-title {
+        font-size: 1.1rem;
+    }
+
+    .categories-desc {
+        font-size: 0.98rem;
+    }
+
+    .categories-illustration {
+        width: 60px;
+        height: 50px;
+    }
+}

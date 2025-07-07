@@ -6,18 +6,18 @@ import { useState, useEffect } from "react";
 import Result from "./Components/resultComponent/Result";
 import { QuizContext } from "./Helper/Context";
 import Timer from "./Components/timerCoomponent/Timer";
-import SelectSkill from "./Components/selectSkillComponent/SelectSkill";
 import Header from "./Components/Header/Header";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import Home from "./Components/home/home";
 
 function App() {
   const [windowState, setWindowState] = useState("menu");
   const [scores, setScore] = useState(0);
-  const [selectedSkill, setSelectedSkill] = useState("");
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [selectedSkill, setSelectedSkill] = useState("javascript");
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
-  const [difficulty, setDifficulty] = useState("");
+  const [difficulty, setDifficulty] = useState("easy");
 
   // Handle dark mode
   useEffect(() => {
@@ -46,10 +46,10 @@ function App() {
           setDifficulty
         }}
       >
-        <div className="quiz-container">
+        <div>
           {windowState === "menu" && (
-            <div className="menu-container">
-              <SelectSkill />
+            <div>
+              <Home onPlayQuiz={() => setWindowState("quiz")} />
             </div>
           )}
 
