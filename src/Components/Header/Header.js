@@ -10,7 +10,7 @@ const Header = ({ isDarkMode, setIsDarkMode }) => {
             <div className="header-control-item">Categories</div>
             <div className="header-control-item">Profile</div>
             <button
-                className={`theme-toggle${isDarkMode ? ' dark' : ''} desktop-only`}
+                className={`theme-toggle${isDarkMode ? ' dark' : ''} desktop-only mobile-only`}
                 onClick={() => setIsDarkMode(!isDarkMode)}
                 aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
