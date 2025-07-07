@@ -38,7 +38,7 @@ const Categories = () => {
                 <div className="categories-desc">
                     <p>Explore the most popular quiz categories and challenge yourself!</p>
                     <p><b>Ready to dive deeper?</b></p>
-                    <p>Discover <a href="#" className="categories-link">more</a> categories tailored to your interests.</p>
+                    <p>Discover <a href="/" className="categories-link">more</a> categories tailored to your interests.</p>
                 </div>
             </div>
             <div className="categories-right">
