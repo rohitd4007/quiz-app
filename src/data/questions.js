@@ -29,7 +29,6 @@ export const questionsData = {
                 ],
                 correctAnswer: "A function with access to its outer scope"
             },
-            // Add more medium questions...
         ],
         hard: [
             {
