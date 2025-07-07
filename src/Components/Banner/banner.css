@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-width: 320px;
+    min-width: 280px;
 }
 
 .home-title {
@@ -83,9 +83,7 @@
     }
 
     .home-right {
-        margin-top: 2rem;
-        width: 100%;
-        justify-content: flex-start;
+        display: none;
     }
 
     .home-illustration {

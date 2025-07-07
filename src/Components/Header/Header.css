@@ -98,11 +98,23 @@
     border-color: var(--primary-color);
 }
 
+.mobile-only {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .header {
         padding: 0.7rem 1rem;
         max-width: 100%;
         border-radius: 0 0 var(--radius) var(--radius);
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: unset;
     }
 
     .logo h1 {
@@ -112,4 +124,29 @@
     .logo-icon {
         font-size: 1.3rem;
     }
+
+    .sidebar {
+        background-color: #000000;
+        position: absolute;
+        left: 0;
+        top: 0;
+        /* height: 50vh; */
+        width: 100%;
+    }
+
+    .sidebar-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 1rem;
+    }
+
+
+
 }
